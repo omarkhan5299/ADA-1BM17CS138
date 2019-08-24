@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int arr[10],n,temp,l,l1;
+    int arr[10],n,temp,l,l1,swap=0;
 	cout<<"Enter the size of the array:";
 	cin>>n;
 	for(int i=0;i<n;i++)
@@ -24,9 +24,11 @@ int main()
 	                    temp=arr[j];
 	                    arr[j]=arr[j+1];
 	                    arr[j+1]=temp;
-	                    
+	                    swap++;
 	                }
 	        }
+	        if(swap==0)
+	            break;
 	        
 	}
 	for(int i=n-1;i>n-l-1;i--)
