@@ -14,7 +14,7 @@ int main()
 	
 	
 			
-	for(int i=0;i<k;i++)
+	for(int i=0;i<l;i++)
 	{       
 	
 	        for(int j=0;j<n-1-i;j++)
