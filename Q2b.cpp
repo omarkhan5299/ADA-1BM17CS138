@@ -12,10 +12,10 @@ int main()
 	cout<<"Enter the number of largest elements to print:";
 	cin>>l;
 	
-	l1=0;
+	
 			
-	for(int i=0;i<n-1;i++)
-	{       l1++;
+	for(int i=0;i<k;i++)
+	{       
 	
 	        for(int j=0;j<n-1-i;j++)
 	        {
@@ -27,8 +27,7 @@ int main()
 	                    
 	                }
 	        }
-	        if(l1==l)
-	            break;
+	        
 	}
 	for(int i=n-1;i>n-l-1;i--)
 			cout<<arr[i]<<endl;
